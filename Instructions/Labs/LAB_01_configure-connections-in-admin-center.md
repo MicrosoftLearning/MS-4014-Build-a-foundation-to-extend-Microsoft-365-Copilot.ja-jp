@@ -22,8 +22,8 @@
 
 ### タスク 1: Azure portal でアクセス許可を付与する
 
-1. Azure portal **https://www.portal.azure.com** に移動し、管理者資格情報を使用してサインインします。 パスワードを保存せず、 **サインインしますか? ** で **はい** を選択します。
-2. ** Microsoft Azure へようこそ**の画面で、**Cancel** を選択します。
+1. Azure portal **https://www.portal.azure.com** に移動し、管理者資格情報を使用してサインインします。 パスワードを保存せず、 **サインインしますか?** で **はい** を選択します。
+2. **Microsoft Azure へようこそ**の画面で、**Cancel** を選択します。
 1. 画面の左側にあるドロップダウン メニュー アイコンを選択して、ポータル メニューを表示します。 **Microsoft Entra ID -> 管理 -> アプリ登録**を選択します。
 1. 上部メニュー バーから、**[新規登録]** を選択します。 **[アプリケーションの登録]** ページが表示されます。 このページで、アプリの名前を指定します。このアプリに**Contoso Fileshare** と名前を付けます。 サポートされているアカウントタイプのオプションは、デフォルトの **[この組織のディレクトリ内のアカウントのみ (UmaContoso のみ – シングルテナント)]** のままにしてください。 省略可能な **[リダイレクト URI]** を選択しないでください。
 1. **登録** を選択します。 アプリケーションが作成され、アプリケーション ID が割り当てられます。 この情報は、次の手順で Graph コネクタ エージェント (GCA) を作成するときに使用します。 ただし、GCA を作成する前に、必要な設定を構成しましょう。
@@ -31,7 +31,7 @@
 次の手順では、Azure Portal で Graph コネクタ エージェントのアクセス許可を付与します。
 
 1. 左側のメニューから **[管理] > [API のアクセス許可]** オプションを選択します。
-1. ** [アクセス許可の追加] > [Microsoft Graph] > [アプリケーションのアクセス許可]** を選択し、次の API へのアクセス許可を許可します。
+1. **[アクセス許可の追加] > [Microsoft Graph] > [アプリケーションのアクセス許可]** を選択し、次の API へのアクセス許可を許可します。
 
     - [ディレクトリ] > [Directory.Read.All]
     - [ExternalConnection] > [ExternalConnection.ReadWrite.OwnedBy]
@@ -44,7 +44,7 @@
 
 ### タスク 2: GCA をインストールする
 
-1. 新しい Microsoft Edge ブラウザー タブを開きます。Graph コネクタ エージェントをダウンロードするには、次の URL に移動します: **https://www.microsoft.com/en-us/download/details.aspx?id=104045**。 **[ダウンロード]** ボタンを選択します。 
+1. 新しい Microsoft Edge ブラウザー タブを開きます。Graph コネクタ エージェントをダウンロードするには、次の URL に移動します: **https://www.microsoft.com/en-us/download/details.aspx?id=104045** 。 **[ダウンロード]** ボタンを選択します。 
 1. **GcaInstaller_3.1.1.0.msi** ファイルを開き、セットアップ ウィザードの指示に従います。 
 2. 画面の下部にある **検索** バーに「**Graph コネクタ エージェント構成**」と入力し、表示されたメニューからアプリを選択します。
 3. **[はい]** を選択して、アプリがデバイスに変更を加えることを許可します。
@@ -67,7 +67,7 @@
 
 GCA を使用してコネクタを構成するには、システムに対してローカルなファイルが必要です。 
 
-1. 新しい Edge ブラウザーを開き、アドレス バーに「**https://github.com/MicrosoftLearning/MS-4014-Build-a-foundation-to-extend-Microsoft-365-Copilot/tree/master/ResourceFiles**」と入力します。
+1. 新しい Edge ブラウザーを開き、アドレス バーに「 **https://github.com/MicrosoftLearning/MS-4014-Build-a-foundation-to-extend-Microsoft-365-Copilot/tree/master/ResourceFiles** 」と入力します。
 2. フォルダー内の最初のファイル **Contoso Chai Tea market trends 2023.xls** を選択して開きます。
 3. 画面の右上にある **[省略記号 (その他のファイル アクション)]** ボタンを選択し、**[ダウンロード]** を選択します。
 4. 残りのファイルごとに手順 3 を繰り返します。
