@@ -37,7 +37,7 @@
     - [ExternalConnection] > [ExternalConnection.ReadWrite.OwnedBy]
     - [ExternalItem] > [ExternalItem.ReadWrite.All]
       
-1. **[アクセス許可の追加]** ボタンを選択します
+1. **[アクセス許可の追加]** ボタンを選択します。
 1. **[Contoso に対して管理者の同意を与える]** を選択し、**[はい]** を選択して確認します。
 
 **注:** この [Edge ブラウザー] タブを閉じないでください。次のタスクでは、Azure portal から情報をコピーして貼り付ける必要があります。
