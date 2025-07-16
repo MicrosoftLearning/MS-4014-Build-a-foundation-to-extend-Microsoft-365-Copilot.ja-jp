@@ -1,4 +1,4 @@
-# INF99X: サンプル コース
+# MS-4014: AI エージェントを構築し、Microsoft 365 Copilot を拡張するための基盤を構築する
 
 **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
 
