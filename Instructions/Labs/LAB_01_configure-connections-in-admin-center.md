@@ -1,3 +1,15 @@
+---
+lab:
+  title: '実習ラボ 1: Microsoft Graph コネクタの接続を構成する'
+  description: このラボでは、Microsoft 365 管理センターの Microsoft ファイル共有コネクタを使用して、顧客ファイルへの接続を構築します。
+  duration: 25 minutes
+  level: 200
+  islab: false
+  primarytopics:
+    - Microsoft 365
+    - Microsoft Graph
+---
+
 # 実習ラボ 1: Microsoft Graph コネクタの接続を構成する
 
 ## WWL テナント - 使用条件
